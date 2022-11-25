@@ -2,11 +2,14 @@
     --text-color: #212121;
     --text-main-color:#757575;
     --footer-hero-color: #2F303A;
-
+    --backgroud-color: #FFF;
+    --link-color: #2196F3;
+    --backgroud-color-team: #F5F4FA;
+    --work-features-background:#F5F5F5;
 }
 body{
     font-family:'Roboto';
-    background-color: #FFF;
+    background-color:var(--backgroud-color);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -21,7 +24,7 @@ body{
 }
 .site-nav a:hover,
 .site-nav a:focus{
-    color: #2196F3;
+    color: var(--link-color);
 }
 .list{
     list-style: none;
@@ -32,7 +35,7 @@ body{
 }
 .link-contact a:hover
 .link-contact a:focus{
-    color: #2196F3;
+    color: var(--link-color);
 }
 .underline {
     text-decoration: none;
@@ -43,26 +46,27 @@ body{
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px
+        line-height: 1.2;
+        letter-spacing: 0.03em;
 }
 .logo-footer {
-            color: #FFF;
+            color: var(--backgroud-color);
             font-family: 'Raleway';
             font-style: normal;
             font-weight: 700;
             font-size: 26px;
-            line-height: 31px
+            line-height: 1.2px
         }
 .accent{
-        color: #2196F3;
+        color: var(--link-color);
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px
+        line-height: 1.2px
     }
 .page-header {
-    background-color: #FFFFFF;
+    background-color:var(--backgroud-color);
 }
 .footer{
     background-color: var(--footer-hero-color);
@@ -71,10 +75,10 @@ body{
     background-color: var(--footer-hero-color);
 }
 .hero-title {
-    color: #FFFFFF;
+    color: var(--backgroud-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     text-align:center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -84,17 +88,17 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    background-color: #2196F3;
-    color: #FFF ;
-    background: #2196F3;
+    line-height: 1.9;
+    background-color: var(--link-color);
+    color: var(--backgroud-color) ;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
 }
 .features {
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7px;
+        background-color: var(--work-features-background);
 }
 .hidden {
     visibility: hidden;
@@ -102,16 +106,67 @@ body{
 .features-title {
     font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:var(--text-color);
 }
-.work-title {
+.work{
+    background-color: var(--work-features-background);
+}
+.work-title,
+.team-title{
     font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--text-color);
 }
+.team {
+background-color: var(--backgroud-color-team);
+ }
+ .team-card{
+    background-color: var(--backgroud-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+ }
+ .team-title-foto{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color:var(--text-color)
+
+ }
+ .team-title-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-main-color);
+ }
+ .address{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+ }
+ .logo-footer{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+ }
+ .link-footer a{
+    color: rgba(255, 255, 255, 0.6);;
+ }
+ .link-footer a:hover,
+ .link-footer a:focus{
+    color: var(--backgroud-color);
+ }
