@@ -15,6 +15,9 @@ body{
     font-size: 14px;
     color: var(--text-main-color);
 }
+.site-nav .underline.current{
+    color: var(--link-color)
+}
 .nav-link {
     font-weight: 500;
     font-size: 14px;
@@ -198,7 +201,7 @@ background-color: var(--backgroud-color-team);
     font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 1.19;
+        line-height: 1.71;
         letter-spacing: 0.02em;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
