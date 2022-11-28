@@ -35,13 +35,13 @@ font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 1.14;
-    color: var(--text-main-color);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--text-main-color);
 }
 .link-contact-s a:hover,
 .link-contact-s a:focus{
-    color: var(--link-color);
+    color:var(--link-color);
 }
 .underline {
     text-decoration: none;
